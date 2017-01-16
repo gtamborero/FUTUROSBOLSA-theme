@@ -17,7 +17,7 @@ Template Name: Inicio
 
 <!-- PRESENCIALES -->
 <div class="width100 minpadtop">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">CURSOS PRESENCIALES</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">FORMACIÓN PERMANENTE</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -82,7 +82,7 @@ Template Name: Inicio
 
 <!-- ONLINE -->
 <div class="width100">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">CURSOS ON-LINE</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">FORMACIÓN ON-LINE</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -223,7 +223,7 @@ Template Name: Inicio
 
 		</div>
 		<!-- FIN TESTIMONIALS -->
-		
+
 
 		<!-- TESTIMONIOS -->
 		<div class="width47to94 floatright medpadbottom">

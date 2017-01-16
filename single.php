@@ -119,7 +119,7 @@
 							<?php if ( $esPresencial ){ ?>
 							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-online.jpg" alt="" /></div>
 							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Contacto</strong>
-							<div class="h7">Jesus Fernandez<br />639 36 41 40<br />info@<?php echo $_SERVER['SERVER_NAME']; ?> </div>
+							<div class="h7">Jesus Fernandez<br />639 36 41 40<br />info@futurosbolsa.com</div>
 							</div>
 							<?php } ?>
 

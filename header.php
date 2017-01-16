@@ -49,14 +49,14 @@ Hola ' . $current_user->user_login . '!
 Estás a punto de realizar el pago en el curso elegido.
 
 Una vez hayas realizado el pago, tendrás acceso al curso desde el botón de la página principal <Acceso usuarios>.
-Si tienes algún problema durante el proceso de compra puedes ponerte en contacto con nosotros en info@' . $_SERVER['SERVER_NAME'] . '
+Si tienes algún problema durante el proceso de compra puedes ponerte en contacto con nosotros en info@futurosbolsa.com
 
 Gracias por confiar en Futuros Bolsa.
 
 Jesús Fernandez
 CEO - Futuros Bolsa
-info@' . $_SERVER['SERVER_NAME'] . '
-www.' . $_SERVER['SERVER_NAME'] . '
+info@futurosbolsa.com
+' . $_SERVER['SERVER_NAME'] . '
 ';
 
 	wp_mail( "info@iproject.cat", $titulo, $correo );
