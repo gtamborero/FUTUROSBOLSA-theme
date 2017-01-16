@@ -24,12 +24,12 @@
 				  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 				</div></a>
 				<?php }else{ ?>
-				<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/registro/"><div class="acceso textcenter floatright white maxline minspacetop medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
+				<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/registro/"><div class="acceso textcenter floatright white maxline minspacetop medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
 				  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 				</div></a>
 			<?php } ?>
 		<?php }else{ ?>
-			<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/inscripcion"><div class="acceso textcenter floatright white medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; margin-top:0.7%; line-height:2.5em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
+			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/inscripcion"><div class="acceso textcenter floatright white medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; margin-top:0.7%; line-height:2.5em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
 			¡Reserva el curso!
 			</div></a>
 		<?php } ?>
@@ -170,12 +170,12 @@
 						  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 						</div></a>
 						<?php }else{ ?>
-						<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/registro/"><div class="acceso h6 textcenter floatleft white medspaceleft medspaceleft width90 maxspacebottom maxspacetop maxline hideonpc" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
+						<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/registro/"><div class="acceso h6 textcenter floatleft white medspaceleft medspaceleft width90 maxspacebottom maxspacetop maxline hideonpc" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
 						  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 						</div></a>
 					<?php } ?>
 				<?php }else{ ?>
-				<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/inscripcion"><div class="acceso h6 textcenter floatleft white medspaceleft medspaceleft width90 maxspacebottom maxspacetop maxline hideonpc " style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
+				<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/inscripcion"><div class="acceso h6 textcenter floatleft white medspaceleft medspaceleft width90 maxspacebottom maxspacetop maxline hideonpc " style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
 				¡Reserva el curso!
 				</div></a>
 				<?php } ?>

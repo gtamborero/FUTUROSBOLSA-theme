@@ -10,7 +10,7 @@ Template Name: Inicio
 <div class="bgcolored2 width100">
 	<div class="row maxline">
 		<div class="floatleft h4 minpadtop black">Iníciate en el trading ¡Prueba nuestro curso interactivo <strong>gratuito!</strong></div>
-                <div class="floatright" style="padding: 1.6% 0%"><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/introduccion-al-trading/" class="white"><div class="button h4">¡Me&nbsp;apunto!</div></a></div>
+                <div class="floatright" style="padding: 1.6% 0%"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/introduccion-al-trading/" class="white"><div class="button h4">¡Me&nbsp;apunto!</div></a></div>
 	</div>
 </div>
 

@@ -79,18 +79,18 @@ return $button;
 <div id="wrapper">
 
 	<header id="header">
-                        <div class="row minpadtop"><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>"><img src="/wp-content/uploads/escuela-de-bolsa-online.jpg" style="max-width:274px; width:60%;"></a>
+                        <div class="row minpadtop"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>"><img src="/wp-content/uploads/escuela-de-bolsa-online.jpg" style="max-width:274px; width:60%;"></a>
 							<div class="floatright width50 textright">
 							<?php if ( is_user_logged_in() ) { ?>
-							<div class="floatright maxline medspaceleft h6 "><a href="<?php echo wp_logout_url(); ?>" title="Logout">Salir</a></div><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/usuario"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Hola <?php global $current_user; echo $current_user->user_login; ?>&nbsp; </div></a>
+							<div class="floatright maxline medspaceleft h6 "><a href="<?php echo wp_logout_url(); ?>" title="Logout">Salir</a></div><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/usuario"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Hola <?php global $current_user; echo $current_user->user_login; ?>&nbsp; </div></a>
 
 
-                                                        <div class="floatright maxline medspaceleft h6 clearboth "><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/usuario">Mis Cursos</a>
-                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/cursos-trading/">Comprar</a>
-                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/consulta-al-profesor/">Profesor</a>
+                                                        <div class="floatright maxline medspaceleft h6 clearboth "><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/usuario">Mis Cursos</a>
+                                                            &nbsp; &nbsp; &nbsp; <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/cursos-trading/">Comprar</a>
+                                                            &nbsp; &nbsp; &nbsp; <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/consulta-al-profesor/">Profesor</a>
                                                         </div>
                                                         <?php }else{ ?>
-							<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/acceder"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Acceso usuarios&nbsp;</div></a>
+							<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/acceder"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Acceso usuarios&nbsp;</div></a>
 							<?php }	?>
 							</div>
 						</div>
