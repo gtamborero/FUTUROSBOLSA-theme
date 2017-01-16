@@ -20,8 +20,8 @@ Template Name: Cursos Presenciales
 			</div>
 		</div>-->
 
-		
-	</div>	
+
+	</div>
 </div>
 
 
@@ -38,10 +38,10 @@ Template Name: Cursos Presenciales
 	</div>
 
 	<br /><br />
-	Escuela de bolsa Online. Paseo de Gracia 12<br />
+	Futuros Bolsa. Paseo de Gracia 12<br />
 (08007 Barcelona) España. NIF: 37732952A	</center>
 
-	
+
 	</div>
 </div>
 

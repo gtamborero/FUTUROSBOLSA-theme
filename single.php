@@ -88,7 +88,7 @@
 							<div class="h7"><?php echo types_render_field("requisitos", array('raw' => 'true')); ?></div>
 							</div>
 
-              <div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-certificado.jpg" alt="" /></div>
+              <div class="width20 medpadtop floatleft"><img src="<?php echo get_template_directory_uri(); ?>/img/software.png" style="width:31px;" alt="" /></div>
 							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Software</strong>
 							<div class="h7"><?php echo types_render_field("software", array('raw' => 'true')); ?></div>
 							</div>

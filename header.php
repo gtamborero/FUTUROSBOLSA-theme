@@ -42,7 +42,7 @@ function learndashcss( $content ) {
 add_filter('learndash_payment_button', function($button, $params) {
 
 	$current_user = wp_get_current_user();
-	$titulo ='[Escuela de Bolsa Online] - Proceso de compra ' . $current_user->user_login;
+	$titulo ='[Futuros Bolsa] - Proceso de compra ' . $current_user->user_login;
 	$correo='
 Hola ' . $current_user->user_login . '!
 
@@ -51,10 +51,10 @@ Estás a punto de realizar el pago en el curso elegido.
 Una vez hayas realizado el pago, tendrás acceso al curso desde el botón de la página principal <Acceso usuarios>.
 Si tienes algún problema durante el proceso de compra puedes ponerte en contacto con nosotros en info@' . $_SERVER['SERVER_NAME'] . '
 
-Gracias por confiar en Escuela de Bolsa Online.
+Gracias por confiar en Futuros Bolsa.
 
 Jesús Fernandez
-CEO - Escuela de Bolsa Online
+CEO - Futuros Bolsa
 info@' . $_SERVER['SERVER_NAME'] . '
 www.' . $_SERVER['SERVER_NAME'] . '
 ';

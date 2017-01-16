@@ -20,8 +20,8 @@ Template Name: Contacta
 			</div>
 		</div>-->
 
-		
-	</div>	
+
+	</div>
 </div>
 
 
@@ -39,11 +39,11 @@ Template Name: Contacta
 	</div>
 
 	<br /><br />
-	Escuela de bolsa Online. Paseo de Gracia 12, 1º<br />
+	Futuros Bolsa. Paseo de Gracia 12, 1º<br />
 (08007 Barcelona) España. NIF: 37732952A<br />
  <a href="mailto:info@<?php echo $_SERVER['SERVER_NAME']; ?>">info@<?php echo $_SERVER['SERVER_NAME']; ?></a> <br />Telf: 639 36 41 40	</center>
 
-	
+
 	</div>
 </div>
 
