@@ -42,7 +42,7 @@
 
 <div class="width100 bglightgrey clearboth maxspacetop floatleft">
 <div class="bgcolored width100" style="height:10px;"></div>
-<div class="textcenter minpadbottom"><img src="http://www.futurosbolsa.dev/wp-content/uploads/pegatina.png" style="z-index:9999; width:200px; position:relative; margin-top:-102px;" /></div>
+<div class="textcenter minpadbottom"><img src="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/wp-content/uploads/pegatina.png" style="z-index:9999; width:200px; position:relative; margin-top:-102px;" /></div>
 
     	<div class="row minpadbottom minpadtop">
 					

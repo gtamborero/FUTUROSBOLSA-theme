@@ -1,11 +1,11 @@
-<?php 
-       
+<?php
+
         header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
         header('Pragma: no-cache'); // HTTP 1.0.
-        header('Expires: 0'); // Proxies. 
-   
-        
-// Vamos a tratar la cadena the_content para agregarle siempre al final el 
+        header('Expires: 0'); // Proxies.
+
+
+// Vamos a tratar la cadena the_content para agregarle siempre al final el
 // CSS que nos permite customizar la página para visitantes y estudiantes
 
 // Añado filtro con prioridad 1 sobre el contenido (para estar delante del fitro de leardash)
@@ -37,23 +37,23 @@ function learndashcss( $content ) {
 
 //envio mail cuando click sobre el boton de pago
 add_filter('learndash_payment_button', function($button, $params) {
-	
+
 	$current_user = wp_get_current_user();
 	$titulo ='[Escuela de Bolsa Online] - Proceso de compra ' . $current_user->user_login;
 	$correo='
 Hola ' . $current_user->user_login . '!
 
-Estás a punto de realizar el pago en el curso elegido. 
+Estás a punto de realizar el pago en el curso elegido.
 
 Una vez hayas realizado el pago, tendrás acceso al curso desde el botón de la página principal <Acceso usuarios>.
-Si tienes algún problema durante el proceso de compra puedes ponerte en contacto con nosotros en info@futurosbolsa.dev
+Si tienes algún problema durante el proceso de compra puedes ponerte en contacto con nosotros en info@' . $_SERVER['SERVER_NAME'] . '
 
 Gracias por confiar en Escuela de Bolsa Online.
 
 Jesús Fernandez
 CEO - Escuela de Bolsa Online
-info@futurosbolsa.dev
-www.futurosbolsa.dev
+info@' . $_SERVER['SERVER_NAME'] . '
+www.' . $_SERVER['SERVER_NAME'] . '
 ';
 
 	wp_mail( "info@iproject.cat", $titulo, $correo );
@@ -63,7 +63,7 @@ return $button;
 },5,2);
 
 
-?><!DOCTYPE html> 
+?><!DOCTYPE html>
 <html class="no-js" lang="es-ES">
 
 <head>
@@ -79,18 +79,18 @@ return $button;
 <div id="wrapper">
 
 	<header id="header">
-                        <div class="row minpadtop"><a href="http://www.futurosbolsa.dev"><img src="/wp-content/uploads/escuela-de-bolsa-online.jpg" style="max-width:274px; width:60%;"></a>   
+                        <div class="row minpadtop"><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>"><img src="/wp-content/uploads/escuela-de-bolsa-online.jpg" style="max-width:274px; width:60%;"></a>
 							<div class="floatright width50 textright">
 							<?php if ( is_user_logged_in() ) { ?>
-							<div class="floatright maxline medspaceleft h6 "><a href="<?php echo wp_logout_url(); ?>" title="Logout">Salir</a></div><a href="http://www.futurosbolsa.dev/usuario"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Hola <?php global $current_user; echo $current_user->user_login; ?>&nbsp; </div></a> 
-                                                        
-							
-                                                        <div class="floatright maxline medspaceleft h6 clearboth "><a href="http://www.futurosbolsa.dev/usuario">Mis Cursos</a> 
-                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.futurosbolsa.dev/cursos-trading/">Comprar</a> 
-                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.futurosbolsa.dev/consulta-al-profesor/">Profesor</a> 
+							<div class="floatright maxline medspaceleft h6 "><a href="<?php echo wp_logout_url(); ?>" title="Logout">Salir</a></div><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/usuario"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Hola <?php global $current_user; echo $current_user->user_login; ?>&nbsp; </div></a>
+
+
+                                                        <div class="floatright maxline medspaceleft h6 clearboth "><a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/usuario">Mis Cursos</a>
+                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/cursos-trading/">Comprar</a>
+                                                            &nbsp; &nbsp; &nbsp; <a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/consulta-al-profesor/">Profesor</a>
                                                         </div>
                                                         <?php }else{ ?>
-							<a href="http://www.futurosbolsa.dev/acceder"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Acceso usuarios&nbsp;</div></a>
+							<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/acceder"><div class="acceso textright floatright white h6 valigncenter minpadright" style="-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;"><img src="/wp-content/uploads/acceso-usuarios.png">&nbsp; Acceso usuarios&nbsp;</div></a>
 							<?php }	?>
 							</div>
 						</div>
@@ -116,11 +116,11 @@ return $button;
 								</nav><!--/#nav-header-->
 									</div>
 		<?php endif; ?>
-<?php } ?>				
-		
+<?php } ?>
+
 	</header><!--/#header-->
-	
+
 	<div class="container" id="page">
-		<div class="">			
+		<div class="">
 			<div class="main">
 				<div class="main-inner group">

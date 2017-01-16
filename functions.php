@@ -3,7 +3,7 @@
 //LOGIN REDIRECCTION
 add_filter( 'login_url', 'my_login_url' );
 function my_login_url( $url ) {
-	return 'http://www.futurosbolsa.dev/acceder/';
+	return 'http://www' . $_SERVER['SERVER_NAME'] . '/acceder/';
 };
 
 //PROFILE REDIRECTION

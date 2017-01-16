@@ -6,7 +6,7 @@
   <div class="row">
 	<div class="textcenter h2 grey underline minpadbottom minspacebottom"> Novedades</div>
 	<div class="textcenter h5 grey underline minpadbottom minspacebottom "> 
-	<a href="http://www.futurosbolsa.dev/novedades/">Todas</a> 
+	<a href="http://www.<?php echo $_SERVER['SERVER_NAME']; ?>/novedades/">Todas</a> 
 	<?php // Selecciono la taxonomia (terms) creado en TYPES y saco las categorias creadas
 	$terms = get_terms('noticias');
  	if ( !empty( $terms ) && !is_wp_error( $terms ) ){
