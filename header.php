@@ -1,8 +1,8 @@
 <?php
 // CHAPU PARA REDIRIGIR A FB si no eres user
-if (!is_user_logged_in()){
-	header('Location: http://www.futurosbolsa.com/fb');
-}
+//if (!is_user_logged_in()){
+//	header('Location: http://www.futurosbolsa.com/fb');
+//}
         header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
         header('Pragma: no-cache'); // HTTP 1.0.
         header('Expires: 0'); // Proxies.
