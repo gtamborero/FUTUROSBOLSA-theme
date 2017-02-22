@@ -97,7 +97,7 @@ return $button;
 							<?php }	?>
 							</div>
 						</div>
-<?php if ( is_user_logged_in() ) { ?>
+
 <!-- TOPBAR -->
 		<?php if ( has_nav_menu('topbar') ): ?>
 			<nav class="nav-container group" id="nav-topbar">
@@ -119,7 +119,7 @@ return $button;
 								</nav><!--/#nav-header-->
 									</div>
 		<?php endif; ?>
-<?php } ?>
+
 
 	</header><!--/#header-->
 
