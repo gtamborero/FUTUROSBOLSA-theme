@@ -89,7 +89,6 @@ return $button;
 
 
                                                         <div class="floatright maxline medspaceleft h6 clearboth "><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/usuario">Mis Cursos</a>
-                                                            &nbsp; &nbsp; &nbsp; <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/cursos-trading/">Comprar</a>
                                                             &nbsp; &nbsp; &nbsp; <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/consulta-al-profesor/">Profesor</a>
                                                         </div>
                                                         <?php }else{ ?>
