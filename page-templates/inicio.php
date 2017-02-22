@@ -66,7 +66,7 @@ Template Name: Inicio
                             </div>
 
                             <div style="position:relative; right:4%; " class="h6 floatright black minpadtop medpadbottom width90 textright">
-                                INSCRÍBETE <div class="flecha minpadtop"></div>
+                                MÁS INFORMACIÓN <div class="flecha minpadtop"></div>
                             </div>
                         </div>
                         </a>
