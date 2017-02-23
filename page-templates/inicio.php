@@ -5,7 +5,7 @@ Template Name: Inicio
 ?>
 <?php get_header(); ?>
 
-<?php layerslider(1) ?>
+<?php /*layerslider(1);*/ layerslider(2);    ?>
 
 <div class="bgcolored2 width100">
 	<div class="row maxline">
