@@ -17,7 +17,7 @@ Template Name: Inicio
 
 <!-- PRESENCIALES -->
 <div class="width100 minpadtop">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">FORMACIÓN PERMANENTE</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">PROFESSIONAL TRADERS COACHING</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -82,7 +82,7 @@ Template Name: Inicio
 
 <!-- ONLINE -->
 <div class="width100">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">FORMACIÓN ON-LINE</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">ESCUELA DE BOLSA ON-LINE - Formación en vídeo</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -156,9 +156,9 @@ Template Name: Inicio
 
 
 
-<div class="width100 bgcolored medpadbottom">
+<!--<div class="width100 bgcolored medpadbottom">
     <div class="row">
-        <div class="white h3 underline maxpadtop maxspacebottom">&nbsp; NUESTRO MÉTODO</div>
+        <div class="white h3 underline maxpadtop maxspacebottom">&nbsp; NUESTRO MÉTODO DE FORMACIÓN ON-LINE</div>
 
 		<div class="width50to100 floatleft medpadbottom">
 			<div class="width45 minpad textcenter white floatleft">
@@ -193,7 +193,7 @@ Template Name: Inicio
 		</div>
 
     </div>
-</div>
+</div>-->
 
 <div class="width100 medpadbottom minpadtop">
     <div class="row">

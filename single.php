@@ -65,7 +65,7 @@
 
 				<?php if (types_render_field("metodo", array('raw' => 'true'))){ ?>
 				<div class=" textjustify floatleft check">
-					<div class="colored2 h2 medpadtop minpadbottom">Método</div>
+					<div class="colored2 h2 medpadtop minpadbottom">Contenido</div>
 
 				<div class="h6"><?php echo types_render_field("metodo", array('raw' => 'true')); ?></div>
 				</div>
@@ -94,12 +94,12 @@
 							</div>
 							<?php } ?>
 
-							<?php if ( !$esPresencial ){ ?>
+							<?php /* if ( !$esPresencial ){ ?>
 							<div class="width20 floatleft"><img src="/wp-content/uploads/icono-curso-certificado.jpg" alt="" /></div>
 							<div class="width80 floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Certificación acreditativa</strong>
 							<div class="h7">Recibirás un diploma acreditativo</div>
 							</div>
-							<?php } ?>
+							<?php } */ ?>
 
 							<?php if ( $esPresencial ){ ?>
 							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-tutor.jpg" alt="" /></div>
@@ -119,7 +119,7 @@
 							<?php if ( $esPresencial ){ ?>
 							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-online.jpg" alt="" /></div>
 							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Contacto</strong>
-							<div class="h7">Jesus Fernandez<br />639 36 41 40<br />info@futurosbolsa.com</div>
+							<div class="h7">Jesus Fernandez<br />639 36 41 40<br />info@futurosbolsa.com<br />Skype: <a href="skype:futurosbolsa?call">futurosbolsa</a></div>
 							</div>
 							<?php } ?>
 
@@ -129,10 +129,10 @@
 							<div class="h7">¡Resuelve tus dudas! Pregunta al profesor cuando quieras y te contestará en máx. 24/48h</div>
 							</div>
 
-							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-online.jpg" alt="" /></div>
+							<!--<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-online.jpg" alt="" /></div>
 							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Webinar</strong>
 							<div class="h7">Videoconferencia mensual de profundización. Podrás preguntar vía chat al profesor. </div>
-							</div>
+            </div>-->
 							<?php } ?>
 
 

@@ -15,7 +15,7 @@
 						<a href="http://www.iproject.cat" target="_NEW" style="font-size:12px; float:left;">Handmade by &nbsp; <img src="http://www.martinezcomin.com/wp-content/themes/arras/images/iproject-blanco.png" style="margin-top:1.8%; float:right;"> </a>
 
 						</div>
-						<div class="width70 h6static floatright textright medpadbottom medline">Copyright © 2015 <?php echo $_SERVER['SERVER_NAME']; ?> -  <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/aviso-legal" >Aviso Legal</a><br />Paseo de Gracia 12, 1° 08007 <span style="color:#aaa";>Barcelona</span> &nbsp;|&nbsp; Calle Velázquez 86-B, 28006 <span style="color:#aaa";>Madrid</span> <br />Telf: 639 36 41 40 &nbsp;|&nbsp; <a href="mailto:info@futurosbolsa.com" >info@futurosbolsa.com</a></div>
+						<div class="width70 h6static floatright textright medpadbottom medline">Copyright © 2015 <?php echo $_SERVER['SERVER_NAME']; ?> -  <a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/aviso-legal" >Aviso Legal</a><br />Paseo de Gracia 12, 1° 08007 <span style="color:#aaa";>Barcelona</span><br />Telf: 639 36 41 40 &nbsp;|&nbsp; <a href="mailto:info@futurosbolsa.com" >info@futurosbolsa.com</a> Skype: <a href="skype:futurosbolsa?call">futurosbolsa</a></div>
 
 				</div>
 			</div><!--/.container-inner-->
