@@ -61,6 +61,27 @@
 					</div>
                 </div>
 				<?php } ?>
+				
+				<script>
+				  jQuery(function() {
+					jQuery('a[href*="#"]:not([href="#"])').click(function() {
+					  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = jQuery(this.hash);
+						//rop slide -> target = target.length ? target : jQuery('.mcareasload');
+						target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+						  jQuery('html, body').animate({
+							scrollTop: target.offset().top
+						  }, 1000);
+						  return false;
+						}
+					  }
+					});
+				  });
+				</script>
+				
+				<div class="width100 textcenter medpadtop h4"><a href="#temario">Ver Temario<br />
+				<img style="width:50px; margin-top:10px;" src="<?php echo get_template_directory_uri(); ?>/img/organizacion-flecha1.png"></a></div>
 
 
 				<?php if (types_render_field("metodo", array('raw' => 'true'))){ ?>
@@ -209,6 +230,7 @@
 
 <!-- TEMARIO -->
 <div class="bgcolored width100 medpadbottom">
+<a name="temario">
 	<div class="row">
 		<div class="width100 floatleft medpadtop white">
 			<div class="white h2 medpadtop minpadbottom underline ">Temario</div>
