@@ -38,8 +38,8 @@ Template Name: Inscripcion
 	</div>
 
 	<br />&nbsp;<br />
-	Futuros Bolsa. Paseo de Gracia 12<br />
-(08007 Barcelona) España. NIF: 37732952A	</center>
+	Futuros Bolsa. Rambla Poblenou 89<br />
+(08005 Barcelona) España. NIF: 37732952A	</center>
 
 
 	</div>

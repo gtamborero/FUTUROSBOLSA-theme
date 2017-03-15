@@ -39,8 +39,8 @@ Template Name: Contacta
 	</div>
 
 	<br /><br />
-	Futuros Bolsa. Paseo de Gracia 12, 1º<br />
-(08007 Barcelona) España. NIF: 37732952A<br />
+	Futuros Bolsa. Rambla Poblenou 89<br />
+(08005 Barcelona) España. NIF: 37732952A<br />
  <a href="mailto:info@futurosbolsa.com">info@futurosbolsa.com</a> <br />Telf: 639 36 41 40	</center>
 
 
