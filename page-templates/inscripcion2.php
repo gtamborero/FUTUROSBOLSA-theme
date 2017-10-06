@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Inscripcion
+Template Name: Inscripcion 2 
 */
 ?><?php get_header(); ?>
 
@@ -28,13 +28,13 @@ Template Name: Inscripcion
 <div class="width100 bglightgrey medpadbottom">
     <div class="row medpadtop">
 
-    <center><h1 style="font-weight:normal; margin-bottom:20px; font-size: 40px;">Formulario de inscripción: Iniciación</h1>
+    <center><h1 style="font-weight:normal; margin-bottom:20px; font-size: 40px;">Inscripción: Algorítmico con futuros</h1>
     <p class="textcenter">Puedes mandarnos la solicitud de pre-inscripción a través del siguiente formulario. No te compromete a nada, solo recibirás la información.<br /><br />
 	</p>
     </center>
 
 	<div style="width:70%; margin-left:15%;">
-	<?php echo do_shortcode("[contact-form-7 id='8' title='Inscripcion']"); ?>
+	<?php echo do_shortcode('[contact-form-7 id="1769" title="Inscripcion2"]'); ?>
 	</div>
 
 	<br />&nbsp;<br />

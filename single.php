@@ -29,7 +29,7 @@
 				</div></a>
 			<?php } ?>
 		<?php }else{ ?>
-			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/inscripcion"><div class="acceso textcenter floatright white medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; margin-top:0.7%; line-height:2.5em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
+			<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/<?php echo types_render_field("formulario", array('raw' => 'true')); ?>"><div class="acceso textcenter floatright white medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; margin-top:0.7%; line-height:2.5em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
 			¡Reserva el curso!
 			</div></a>
 		<?php } ?>
@@ -141,6 +141,11 @@
 							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-curso-online.jpg" alt="" /></div>
 							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">Contacto</strong>
 							<div class="h7">Jesus Fernandez<br />639 36 41 40<br />info@futurosbolsa.com<br />Skype: <a href="skype:futurosbolsa?call">futurosbolsa</a></div>
+							</div>
+							
+							<div class="width20 medpadtop floatleft"><img src="/wp-content/uploads/icono-estrella.png" alt="" /></div>
+							<div class="width80 medpadtop floatleft h6 medpadbottom underline"><strong style="text-transform: uppercase;">GRATIS</strong>
+							<div class="h7">Todos los <strong>cursos de video</strong>  de FuturosBolsa</div>
 							</div>
 							<?php } ?>
 
