@@ -17,7 +17,7 @@ Template Name: Inicio
 
 <!-- PRESENCIALES -->
 <div class="width100 minpadtop">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">PROFESSIONAL TRADERS COACHING</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">ESCUELA DE BOLSA ON-LINE - Professional Coaching for Traders</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -78,6 +78,15 @@ Template Name: Inicio
             <?php endif; ?>
 
     </div>
+</div>
+
+<div class="width100 clearboth minpadtop minpadbottom minspacebottom bannerform" style='background-image: url("/wp-content/uploads/bg-inscribete-coaching.jpg");'>
+    <div class="row textcenter">
+	<h2>¿No sabes que formación es la más adecuada para tí?</h2>
+	<div class="bannertext">Solicita ahora 30 minutos gratis con nuestro Training Trader (Jesús Fernandez)
+	sin ningún tipo de compromiso.</div>
+	<?php echo do_shortcode('[contact-form-7 id="1778" title="Form Lead"]'); ?>
+	</div>
 </div>
 
 <!-- ONLINE -->
