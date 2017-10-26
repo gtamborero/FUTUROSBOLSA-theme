@@ -74,6 +74,15 @@ return $button;
 	<meta content="user-scalable=yes, maximum-scale=1.6, width=device-width, initial-scale=1, target-densitydpi=device-dpi" name="viewport">
 	<title><?php wp_title(''); ?></title>
 	<?php wp_head(); ?>
+<!-- Global site tag (gtag.js) - Google AdWords: 1070860627 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1070860627"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1070860627');
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>
