@@ -118,9 +118,11 @@ jQuery( document ).ready(function() {
         }, 600);
 	}
 
-	jQuery( document ).ready(
-	mobileFriendly()
-	);
+	jQuery( document ).ready(function(){
+	mobileFriendly();
+	//HACK PAGO 
+		jQuery("#btn-join").val("Acceso gratuito");
+	});
 
 	window.addEventListener("orientationchange", mobileFriendly, false);
 

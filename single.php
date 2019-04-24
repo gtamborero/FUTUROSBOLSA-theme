@@ -21,11 +21,11 @@
 		<?php if ( !$esPresencial ){ ?>
 			<?php if ( is_user_logged_in() ) { ?>
 				<a href="<?php echo types_render_field("accesourl", array('raw' => 'true')); ?>"><div class="acceso textcenter floatright white medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; margin-top:0.7%; line-height:2.5em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
-				  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
+				  ¡<?php /* LO QUE HABIA DEL CURSO GRAUTS:  get_the_ID() == 642 */ if (1): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 				</div></a>
 				<?php }else{ ?>
 				<a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/registro/"><div class="acceso textcenter floatright white maxline minspacetop medspaceleft medspaceleft width30 hideonmobile" style="font-size: 0.4em; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;">
-				  ¡<?php if ( get_the_ID() == 642): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
+				  ¡<?php /* LO QUE HABIA DEL CURSO GRAUTS:  get_the_ID() == 642 */ if (1): echo "Inscríbete gratis"; else: echo "Comprar"; endif; ?>!
 				</div></a>
 			<?php } ?>
 		<?php }else{ ?>

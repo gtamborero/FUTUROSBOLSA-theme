@@ -2462,10 +2462,7 @@ ul.ulsimbol li {
 #nav-header .current-menu-item {
   background-color: #A92D43;
 }
-/* HACKS */
-.main-inner {
-  min-height: 400px;
-}
+
 .ls-bg {
   margin-top: 0px !important;
 }
