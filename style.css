@@ -2928,3 +2928,6 @@ span.wpcf7-not-valid-tip {
 
 /* HACKS CONTACT FORM 7 */
 select {font-size:14px; padding:6px; border:0px;}
+
+/* HACK PARA QUE NO SE ENVIE EL PRIMER CORREO */
+.wppb-send-credentials-checkbox {display:none;}
