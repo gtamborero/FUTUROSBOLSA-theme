@@ -14,11 +14,11 @@ function modify_profile_url( $url, $user_id, $scheme ){
 }
 
 //LOST PASSWORD REDIRECTION
-add_filter( 'lostpassword_url', 'modify_lostpassword_url', 10, 0 );
+/*add_filter( 'lostpassword_url', 'modify_lostpassword_url', 10, 0 );
 function modify_lostpassword_url( $lostpassword_url, $redirect ){
 	$url = site_url( '/recuperar-contrasena' );
 	return $url;
-}
+}*/
 
 //DELETE ADMIN BAR FOR ALL except admin
 if (!function_exists('df_disable_admin_bar')) {
