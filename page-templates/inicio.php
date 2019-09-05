@@ -7,17 +7,18 @@ Template Name: Inicio
 
 <?php /*layerslider(1);*/ layerslider(2);    ?>
 
+<!--
 <div class="bgcolored2 width100">
 	<div class="row maxline">
 		<div class="floatleft h4 minpadtop black">Iníciate en el trading ¡Prueba nuestro curso interactivo <strong>gratuito!</strong></div>
                 <div class="floatright" style="padding: 1.6% 0%"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/introduccion-al-trading/" class="white"><div class="button h4">¡Me&nbsp;apunto!</div></a></div>
 	</div>
 </div>
-
+-->
 
 <!-- PRESENCIALES -->
 <div class="width100 minpadtop">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">ESCUELA DE BOLSA ON-LINE - Professional Coaching for Traders</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline">FORMACIÓN PARA TRADERS</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -91,7 +92,7 @@ Template Name: Inicio
 
 <!-- ONLINE -->
 <div class="width100">
-    <div class="row darkgrey"><div class="maxline h3 minspace underline">ESCUELA DE BOLSA ON-LINE - Formación en vídeo</div></div>
+    <div class="row darkgrey"><div class="maxline h3 minspace underline uppercase">FORMACIÓN GRATUITA</div></div>
 </div>
 
 <div class="width100 clearboth minpadtop">
@@ -134,21 +135,11 @@ Template Name: Inicio
                             </div>
 
                             <div style="position:relative; padding-right:6%; line-height: 0.8em;" class="h1 floatright colored width90 textright ">
-                            <?php
-
-                                //Obtengo post ID de learndash relacionado con el post actual por URL
-                                $postid = url_to_postid( types_render_field("accesourl", array('raw' => 'true')) );
-                                //Obtengo array que contiene el precio del curso
-                                $arrayPrice = get_post_meta( $postid, "_sfwd-courses", true );
-                                $importe = $arrayPrice["sfwd-courses_course_price"];
-
-                                if ($importe == 0): echo "Gratis"; else: echo $importe . '€<br />'; endif;
-
-                            ?>
+                            Gratis
                             </div>
 
                             <div style="position:relative; right:4%; " class="h6 floatright black minpadtop medpadbottom width90 textright">
-                                INSCRÍBETE <div class="flecha minpadtop"></div>
+                                VER VIDEOS <div class="flecha minpadtop"></div>
                             </div>
                         </div>
                         </a>

@@ -34,7 +34,7 @@ Template Name: Inscripcion 2
     </center>
 
 	<div style="width:70%; margin-left:15%;">
-	<?php echo do_shortcode('[contact-form-7 id="1769" title="Inscripcion2"]'); ?>
+	<?php echo do_shortcode('[contact-form-7 id="1770" title="Algoritmico con futuros"]'); ?>
 	</div>
 
 	<br />&nbsp;<br />
